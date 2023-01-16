@@ -39,7 +39,7 @@ export default function Testimonials() {
         }
     });
     useEffect(() => {
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+        // eslint-disable-next-line
         setTestimonials(initialData); // remove when setup
         // axios
         //     .get<TestimonialType[]>("testimonial")
@@ -50,7 +50,7 @@ export default function Testimonials() {
         //     .catch((error) => {
         //         console.error(error);
 
-        //         // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+        //         // eslint-disable-next-line
         //         setTestimonials(initialData);
         //     });
     }, []);

@@ -18,7 +18,7 @@ export default function Works() {
     // const [data, setData] = useState<Project[]>([]);
     const [data, setData] = useState<Project[]>([]);
     useEffect(() => {
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+        // eslint-disable-next-line
         setData(fakeData);
         //     axios
         //         .get<Project[]>("project")

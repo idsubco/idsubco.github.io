@@ -39,7 +39,7 @@ export default function Team() {
         }
     });
     useEffect(() => {
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+        // eslint-disable-next-line
         setMembers(initialData); // REMOVE
         // axios
         //     .get<Member[]>("people")
@@ -50,7 +50,7 @@ export default function Team() {
         //     .catch((error) => {
         //         console.error(error);
 
-        //         // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+        //         // eslint-disable-next-line
         //         setMembers(initialData);
         //     });
     }, []);
