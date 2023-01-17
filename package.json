@@ -2,7 +2,7 @@
     "name": "ids-frontend",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://jjkivai.github.io/main",
+    "homepage": "http://jjkivai.github.io/",
     "dependencies": {
         "@emotion/react": "^11.10.5",
         "@emotion/styled": "^11.10.5",

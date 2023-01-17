@@ -69,6 +69,12 @@ const projects = [
         image: require("../../../static/images/portfolio/gallery/sd.jpg"),
         description: "The solar decathelon competition",
     },
+    {
+        title: "TEST PROJECT",
+        link: "https://www.solardecathlon.gov/",
+        image: require("../../../static/images/portfolio/gallery/sd.jpg"),
+        description: "The solar decathelon competition",
+    },
 ];
 
 export { testimonials, teamMembers, projects };
