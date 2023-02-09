@@ -8,7 +8,7 @@ import { projects as fakeData } from "./defaultData";
 type Project = {
     title: string;
     link: string;
-    image: string | typeof import("*.png") | undefined;
+    image: string | typeof import("*.png") | typeof import("*.jpeg") | undefined;
     docLink?: string;
     description: string;
     caption?: string;

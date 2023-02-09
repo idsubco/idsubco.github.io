@@ -29,6 +29,7 @@ const navRoutes = [
                 path: "#works",
                 icon: getIcon("material-symbols:check"),
             },
+
             {
                 title: "The Team",
                 path: "#team",

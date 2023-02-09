@@ -1,7 +1,9 @@
 import { useLayoutEffect } from "react";
 import List from "@mui/material/List";
 import $ from "jquery";
-// import "jquery-parallax.js";
+/* eslint-disable */
+window.$ = window.jQuery = require("jquery");
+import "jquery-parallax.js";
 // Custom imports
 import SolarPanel from "../../../static/images/solarpanel.jpeg";
 import Iconify from "../../../components/Iconify";
@@ -92,6 +94,14 @@ export default function Home() {
                 <LogoRedirect to={"https://www.instagram.com/idsubco/"}>
                     <ListItemIconStyle>
                         <Iconify icon={"fa:instagram"} sx={{ fontSize: "20px", color: "#ffffff", fontColor: "red" }} />
+                    </ListItemIconStyle>
+                </LogoRedirect>
+                <LogoRedirect to={"https://linkte.ee/idsubco"}>
+                    <ListItemIconStyle>
+                        <Iconify
+                            icon={"simple-icons:linktree"}
+                            sx={{ fontSize: "20px", color: "green", fontColor: "red" }}
+                        />
                     </ListItemIconStyle>
                 </LogoRedirect>
             </List>
