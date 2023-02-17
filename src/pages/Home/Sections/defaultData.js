@@ -59,7 +59,7 @@ const projects = [
     },
     {
         title: "Campus Waste Initiaive",
-        link: "/cwi",
+        link: "/campus_waste_initiative",
         image: require("../../../static/images/portfolio/gallery/cwi.png"),
         description: "Waste Management around University Campus",
     },
