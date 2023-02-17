@@ -60,7 +60,7 @@ function ProjectRender({ link, title, image, description, docLink, caption }: Pr
         <div className="masonry__brick" onLoad={() => {}}>
             <div className="item-folio">
                 <div className="item-folio__thumb">
-                    <a href={link} target="_blank" className="thumb-link" title={title} data-size="1800x1800">
+                    <a href={link} target="_blank" className="thumb-link" title={title} data-size="180x180">
                         <img
                             /* eslint-disable*/
                             /* @ts-ignore */
