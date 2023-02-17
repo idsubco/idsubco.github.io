@@ -42,7 +42,7 @@ export default function Works() {
                 </div>
             </div>
 
-            <div className="row works-content">
+            <div className="row works-content" data-aos="fade-up">
                 <div className="col-full masonry-wrap">
                     <div className="masonry" onLoad={() => {}}>
                         {data.map((item) => (
@@ -57,7 +57,7 @@ export default function Works() {
 
 function ProjectRender({ link, title, image, description, docLink, caption }: Project) {
     return (
-        <div className="masonry__brick" data-aos="fade-up" onLoad={() => {}}>
+        <div className="masonry__brick" onLoad={() => {}}>
             <div className="item-folio">
                 <div className="item-folio__thumb">
                     <a href={link} target="_blank" className="thumb-link" title={title} data-size="1800x1800">
