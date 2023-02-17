@@ -77,4 +77,27 @@ const projects = [
     },
 ];
 
-export { testimonials, teamMembers, projects };
+const sponsors = [
+    {
+        name: "Sayra Gorgani",
+        position: "Founder",
+        image: require("../../../static/images/avatars/person5.png"),
+    },
+    {
+        name: "Ashwin Ramesh",
+        position: "Co-Founder",
+        image: require("../../../static/images/avatars/person7.png"),
+    },
+    {
+        name: "Eric Laksmono",
+        position: "Co-Founder",
+        image: require("../../../static/images/avatars/person5.png"),
+    },
+    {
+        name: "Alexis Guidi",
+        position: "Co-Founder",
+        image: require("../../../static/images/avatars/person3.png"),
+    },
+];
+
+export { testimonials, teamMembers, projects, sponsors };

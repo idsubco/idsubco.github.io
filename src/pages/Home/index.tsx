@@ -1,4 +1,4 @@
-import { Home, About, Services, Works, Team, Testimonials } from "./Sections";
+import { Home, About, Services, Works, Team, Testimonials, Sponsors } from "./Sections";
 
 export default function HomePage() {
     return (
@@ -8,6 +8,7 @@ export default function HomePage() {
             <Services />
             <Works />
             <Team />
+            <Sponsors/>
             <Testimonials />
         </>
     );
