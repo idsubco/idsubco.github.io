@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import $ from "jquery";
 import { Waypoint } from "react-waypoint";
-import axios from "axios";
+// import axios from "axios";
 
 type AboutData = {
     members: number;
@@ -9,12 +9,12 @@ type AboutData = {
     faculty: number;
     meetingsDone: number;
 };
-const fakeData: AboutData = { members: 102, partners: 4, faculty: 3, meetingsDone: 46 };
+const info: AboutData = { members: 102, partners: 4, faculty: 3, meetingsDone: 46 };
 
 export default function About() {
     const ref = useRef<HTMLDivElement>(null);
     const [hasCounted, sethasCounted] = useState(false);
-    const [data, setData] = useState<AboutData>(fakeData);
+    const [data, setData] = useState<AboutData>(info);
     useEffect(() => {
         // axios
         //     .get<AboutData[]>("about")
@@ -95,9 +95,7 @@ export default function About() {
                     </div>
                     <div className="service-text">
                         <h3 className="h2">Sustain</h3>
-                        <p>
-                            Implement sustainable solutions on our campus and local community.
-                        </p>
+                        <p>Implement sustainable solutions on our campus and local community.</p>
                     </div>
                 </div>
             </div>

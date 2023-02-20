@@ -2568,7 +2568,7 @@ html.no-csstransitions .home-content__main {
 
 .masonry .grid-sizer,
 .masonry__brick {
-    width: 50%;
+    width: 33.33333%;
 }
 
 .masonry__brick {
