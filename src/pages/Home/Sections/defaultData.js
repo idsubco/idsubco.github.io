@@ -32,15 +32,61 @@ const teamMembers = [
         image: require("../../../static/images/avatars/person7.png"),
     },
     {
-        name: "Eric Laksmono",
-        position: "Co-Founder",
+        name: "Ailie Geuma Kwak",
+        position: "VP Operations",
         image: require("../../../static/images/avatars/person5.png"),
     },
     {
-        name: "Alexis Guidi",
-        position: "Co-Founder",
+        name: "Ruwaida Rashid",
+        position: "VP Marketing",
         image: require("../../../static/images/avatars/person3.png"),
     },
+    {
+        name: "Celina Yin",
+        position: "VP Events",
+        image: require("../../../static/images/avatars/person3.png"),
+    },
+    {
+        name: "Jared Paull ",
+        position: "Solar Bench Electrical Lead",
+        image: require("../../../static/images/avatars/person3.png"),
+    },
+    {
+        name: " Tabitha Aurthur ",
+        position: "Solar Bench Civil Lead",
+        image: require("../../../static/images/avatars/person3.png"),
+    },
+    {
+        name: "Isha Shah",
+        position: "Solar Bench Electrical Lead",
+        image: require("../../../static/images/avatars/person3.png"),
+    },
+    {
+        name: "Kurtis Dezall",
+        position: "Solar Bench Mechanical Lead",
+        image: require("../../../static/images/avatars/person3.png"),
+    },
+    {
+        name: "Salman Ahmed",
+        position: "Solar Bench Mechanical Lead",
+        image: require("../../../static/images/avatars/person3.png"),
+    },
+    {
+        name: "David Ollech",
+        position: "Campus Waste Initiatives Lead",
+        image: require("../../../static/images/avatars/person3.png"),
+    },
+    {
+        name: " Lakshay Karnwal ",
+        position: "Campus Waste Initiatives Lead",
+        image: require("../../../static/images/avatars/person3.png"),
+    },
+    {
+        name: " Samantha Krieg ",
+        position: "Solar Decathlon Team Captain",
+        image: require("../../../static/images/avatars/person3.png"),
+    },
+    
 ];
 
 const projects = [
