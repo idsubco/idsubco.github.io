@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.82b2e92e.css",
-    "main.js": "/static/js/main.3b9685e2.js",
+    "main.css": "/static/css/main.8a21b412.css",
+    "main.js": "/static/js/main.69c13b04.js",
     "static/js/787.7d2b66e2.chunk.js": "/static/js/787.7d2b66e2.chunk.js",
     "static/media/solar_bench.png": "/static/media/solar_bench.9e83aced9b1c332ae8a5.png",
     "static/media/cwi.png": "/static/media/cwi.a69cf3fbd26847ce632f.png",
@@ -52,12 +52,12 @@
     "static/media/montserrat-thin-webfont.woff2": "/static/media/montserrat-thin-webfont.a2575096f1a71d7c0ef0.woff2",
     "static/media/default-skin.svg": "/static/media/default-skin.f64c3af3d0d25b9e4e00.svg",
     "index.html": "/index.html",
-    "main.82b2e92e.css.map": "/static/css/main.82b2e92e.css.map",
-    "main.3b9685e2.js.map": "/static/js/main.3b9685e2.js.map",
+    "main.8a21b412.css.map": "/static/css/main.8a21b412.css.map",
+    "main.69c13b04.js.map": "/static/js/main.69c13b04.js.map",
     "787.7d2b66e2.chunk.js.map": "/static/js/787.7d2b66e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82b2e92e.css",
-    "static/js/main.3b9685e2.js"
+    "static/css/main.8a21b412.css",
+    "static/js/main.69c13b04.js"
   ]
 }
