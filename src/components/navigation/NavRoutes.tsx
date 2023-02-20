@@ -20,45 +20,40 @@ const navRoutes = [
                 icon: getIcon("mdi:about-variant"),
             },
             {
-                title: "Services",
-                path: "#services",
-                icon: getIcon("ic:round-miscellaneous-services"),
-            },
-            {
-                title: "Projects",
-                path: "#works",
-                icon: getIcon("material-symbols:check"),
-            },
-
-            {
                 title: "The Team",
                 path: "#team",
                 icon: getIcon("fluent:people-team-16-filled"),
             },
             {
-                title: "Testimonials",
+                title: "Events",
                 path: "#testimonials",
                 icon: getIcon("dashicons:testimonial"),
             },
         ],
     },
     {
-        title: "Solar Bench",
-        path: "/solar_bench",
-        icon: getIcon("ic:outline-solar-power"),
+        title: "Projects",
+        path: "/",
+        icon: getIcon("ic:round-miscellaneous-services"),
         children: [
             {
-                title: "dashboard",
-                path: "dashboard",
-                icon: getIcon("eva:pie-chart-2-fill"),
+                title: "Solar Bench Project",
+                path: "#projects",
+                icon: getIcon("ic:outline-solar-power"),
+            },
+            {
+                title: "Campus Waste Initiative",
+                path: "#projects",
+                icon: getIcon("maki:waste-basket"),
+            },
+            {
+                title: "Solar Decathlon",
+                path: "/campus_waste_initiative",
+                icon: getIcon("ic:outline-solar-power"),
             },
         ],
     },
-    {
-        title: "Campus Waste Innitiative",
-        path: "/campus_waste_initiative",
-        icon: getIcon("maki:waste-basket"),
-    },
+    
 ];
 
 export default navRoutes;
