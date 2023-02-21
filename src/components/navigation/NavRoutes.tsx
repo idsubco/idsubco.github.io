@@ -38,17 +38,17 @@ const navRoutes = [
         children: [
             {
                 title: "Solar Bench Project",
-                path: "#projects",
+                path: "/solar_bench",
                 icon: getIcon("ic:outline-solar-power"),
             },
             {
                 title: "Campus Waste Initiative",
-                path: "#projects",
+                path: "/campus_waste_initiative",
                 icon: getIcon("maki:waste-basket"),
             },
             {
                 title: "Solar Decathlon",
-                path: "/campus_waste_initiative",
+                path: "/solar_decathlon",
                 icon: getIcon("ic:outline-solar-power"),
             },
         ],
