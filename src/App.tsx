@@ -31,10 +31,6 @@ function App() {
     const preLoaderRef = useRef(null);
     // Initialize stuff app will require
     useEffect(() => {
-        $(() => {
-            /* @ts-ignore-next-line */
-            import("jquery-parallax.js");
-        });
         if (isLoading) {
             setLoader();
             /** TODO: SET UP A PROPER FUNCTION TO REMOVE LOADING */

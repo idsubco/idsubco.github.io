@@ -1,14 +1,15 @@
-import { useEffect, useState } from "react";
-import axios from "axios";
-// import * as Masonry from "masonry-layout";
-import "imagesloaded";
+import { useLayoutEffect, useState } from "react";
+// import axios from "axios";
+// import "masonry-layout";
+import Masonry from "masonry-layout";
+import imagesLoaded from "imagesloaded";
 // import * as Parallax from "jquery-parallax.js"
 import { projects as fakeData } from "./defaultData";
 /* eslint-disable */
 type Project = {
     title: string;
     link: string;
-    image: string | typeof import("*.png") | undefined;
+    image: string | typeof import("*.png") | typeof import("*.jpeg") | undefined;
     docLink?: string;
     description: string;
     caption?: string;
@@ -17,20 +18,17 @@ type Project = {
 export default function Works() {
     // const [data, setData] = useState<Project[]>([]);
     const [data, setData] = useState<Project[]>([]);
-    useEffect(() => {
+    useLayoutEffect(() => {
         // eslint-disable-next-line
         setData(fakeData);
-        //     axios
-        //         .get<Project[]>("project")
-        //         .then((res) => res.data)
-        //         .then((data) => {
-        //             setData(data);
-        //         })
-        //         .catch((error) => {
-        //             console.error(error);
-        //             setData(fakeData);
-        //         });
-    }, []);
+
+        imagesLoaded(".masonry", () => {
+            let ms = new Masonry(".masonry", {
+                itemSelector: ".masonry__brick",
+                resize: true,
+            });
+        });
+    });
     return (
         <section id="works" className="s-works">
             <div className="intro-wrap">
@@ -44,9 +42,9 @@ export default function Works() {
                 </div>
             </div>
 
-            <div className="row works-content">
+            <div className="row works-content" data-aos="fade-up">
                 <div className="col-full masonry-wrap">
-                    <div className="masonry">
+                    <div className="masonry" onLoad={() => {}}>
                         {data.map((item) => (
                             <ProjectRender key={item.title} {...item} />
                         ))}
@@ -59,10 +57,10 @@ export default function Works() {
 
 function ProjectRender({ link, title, image, description, docLink, caption }: Project) {
     return (
-        <div className="masonry__brick" data-aos="fade-up">
+        <div className="masonry__brick" onLoad={() => {}}>
             <div className="item-folio">
                 <div className="item-folio__thumb">
-                    <a href={link} target="_blank" className="thumb-link" title={title} data-size="1800x1800">
+                    <a href={link} target="_blank" className="thumb-link" title={title} data-size="180x180">
                         <img
                             /* eslint-disable*/
                             /* @ts-ignore */

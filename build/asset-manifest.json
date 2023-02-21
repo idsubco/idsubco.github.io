@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     "main.css": "/static/css/main.82b2e92e.css",
     "main.js": "/static/js/main.351fcb95.js",
@@ -8,6 +9,10 @@
     "main.css": "/static/css/main.8a21b412.css",
     "main.js": "/static/js/main.c8285e28.js",
 >>>>>>> Stashed changes
+=======
+    "main.css": "/static/css/main.8a21b412.css",
+    "main.js": "/static/js/main.69c13b04.js",
+>>>>>>> 8d35f122c42ff7a660fb0a79a2588b9c8de97a11
     "static/js/787.7d2b66e2.chunk.js": "/static/js/787.7d2b66e2.chunk.js",
     "static/media/solar_bench.png": "/static/media/solar_bench.9e83aced9b1c332ae8a5.png",
     "static/media/cwi.png": "/static/media/cwi.a69cf3fbd26847ce632f.png",
@@ -58,6 +63,7 @@
     "static/media/montserrat-thin-webfont.woff2": "/static/media/montserrat-thin-webfont.a2575096f1a71d7c0ef0.woff2",
     "static/media/default-skin.svg": "/static/media/default-skin.f64c3af3d0d25b9e4e00.svg",
     "index.html": "/index.html",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     "main.82b2e92e.css.map": "/static/css/main.82b2e92e.css.map",
     "main.351fcb95.js.map": "/static/js/main.351fcb95.js.map",
@@ -76,5 +82,14 @@
     "static/css/main.8a21b412.css",
     "static/js/main.c8285e28.js"
 >>>>>>> Stashed changes
+=======
+    "main.8a21b412.css.map": "/static/css/main.8a21b412.css.map",
+    "main.69c13b04.js.map": "/static/js/main.69c13b04.js.map",
+    "787.7d2b66e2.chunk.js.map": "/static/js/787.7d2b66e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a21b412.css",
+    "static/js/main.69c13b04.js"
+>>>>>>> 8d35f122c42ff7a660fb0a79a2588b9c8de97a11
   ]
 }

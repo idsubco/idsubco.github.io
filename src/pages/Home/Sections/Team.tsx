@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useState } from "react";
 import $ from "jquery";
-import axios from "axios";
+// import axios from "axios";
 
 import { teamMembers as initialData } from "./defaultData";
 

@@ -28,6 +28,7 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-helmet-async": "^1.3.0",
+        "react-parallax": "^3.5.1",
         "react-router-dom": "^6.4.3",
         "react-scripts": "^5.0.1",
         "react-waypoint": "^10.3.0",
@@ -45,7 +46,7 @@
         "eject": "react-scripts eject",
         "lint": "eslint --ext .ts,.tsx ./src",
         "lint:fix": "eslint --fix --ext .ts,.tsx ./src",
-        "deploy": "gh-pages -d build"
+        "deploy": "npm run build && gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [

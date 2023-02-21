@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useState } from "react";
 import $ from "jquery";
-import axios from "axios";
+// import axios from "axios";
 
 import { sponsors as initialData } from "./defaultData";
 
@@ -55,7 +55,7 @@ export default function Sponsors() {
         //     });
     }, []);
     return (
-        <section id="team" className="s-clients" style={{backgroundColor: '#FFFFFF'}}>
+        <section id="team" className="s-clients" style={{ backgroundColor: "#FFFFFF" }}>
             <div className="row section-header" data-aos="fade-up">
                 <div className="col-full">
                     <h3 className="subhead">Our Sponsors</h3>
