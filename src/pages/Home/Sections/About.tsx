@@ -5,11 +5,11 @@ import { Waypoint } from "react-waypoint";
 
 type AboutData = {
     members: number;
+    execmembers: number;
+    subteams: number;
     partners: number;
-    faculty: number;
-    meetingsDone: number;
 };
-const info: AboutData = { members: 102, partners: 4, faculty: 3, meetingsDone: 46 };
+const info: AboutData = { members: 150, execmembers: 14, subteams: 3, partners: 8 };
 
 export default function About() {
     const ref = useRef<HTMLDivElement>(null);
@@ -110,16 +110,16 @@ export default function About() {
                         <h5>Members</h5>
                     </div>
                     <div className="col-block stats__col">
+                        <div className="stats__count">{data.execmembers}</div>
+                        <h5>Executive Members</h5>
+                    </div>
+                    <div className="col-block stats__col">
+                        <div className="stats__count">{data.subteams}</div>
+                        <h5>Sub-teams</h5>
+                    </div>
+                    <div className="col-block stats__col">
                         <div className="stats__count">{data.partners}</div>
                         <h5>Partners</h5>
-                    </div>
-                    <div className="col-block stats__col">
-                        <div className="stats__count">{data.faculty}</div>
-                        <h5>Faculty Support</h5>
-                    </div>
-                    <div className="col-block stats__col">
-                        <div className="stats__count">{data.meetingsDone}</div>
-                        <h5>Meetings Completed</h5>
                     </div>
                 </div>
             </Waypoint>
