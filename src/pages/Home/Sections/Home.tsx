@@ -100,7 +100,7 @@ export default function Home() {
                             />
                         </ListItemIconStyle>
                     </LogoRedirect>
-                    <LogoRedirect to={"https://linkte.ee/idsubco"}>
+                    <LogoRedirect to={"https://linktr.ee/idsubco"}>
                         <ListItemIconStyle>
                             <Iconify
                                 icon={"simple-icons:linktree"}
