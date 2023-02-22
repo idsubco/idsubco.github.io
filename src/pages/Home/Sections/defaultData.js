@@ -40,11 +40,16 @@ const teamMembers = [
         position: "VP Finance",
         image: require("../../../static/images/avatars/Celina.png"),
     },
-    // {
-    //     name: "Madisyn Szypula",
-    //     position: "Solar Bench Design Coordinator",
-    //     image: require("../../../static/images/avatars/Madisyn.png"),
-    // },
+    {
+        name: "Samantha Krieg",
+        position: "Solar Decathlon Team Captain",
+        image: require("../../../static/images/avatars/Samantha.jpg"),
+    },
+    {
+        name: "Madisyn Szypula",
+        position: "Solar Bench Design Coordinator",
+        image: require("../../../static/images/avatars/Madisyn.png"),
+    },
     {
         name: "Jared Paull ",
         position: "Solar Bench Electrical Lead",
@@ -70,21 +75,22 @@ const teamMembers = [
         position: "Solar Bench Mechanical Co-Lead",
         image: require("../../../static/images/avatars/Salman.jpg"),
     },
-    // {
-    //     name: "David Ollech",
-    //     position: "Campus Waste Initiatives Co-Lead",
-    //     image: require("../../../static/images/avatars/David.png"),
-    // },
+    {
+        name: "David Ollech",
+        position: "Campus Waste Initiatives Co-Lead",
+        image: require("../../../static/images/avatars/David.png"),
+    },
     {
         name: "Lakshay Karnwal",
         position: "Campus Waste Initiatives Co-Lead",
         image: require("../../../static/images/avatars/Lakshay.jpg"),
     },
     {
-        name: "Samantha Krieg",
-        position: "Solar Decathlon Team Captain",
-        image: require("../../../static/images/avatars/Samantha.jpg"),
+        name: "Sunil Suresh",
+        position: "Advisor",
+        image: require("../../../static/images/avatars/Sunil.jpg"),
     },
+
 ];
 
 const projects = [
@@ -116,9 +122,9 @@ const projects = [
 
 const sponsors = [
     {
-        name: "Engineers and Geoscientists BC",
+        name: "UBC Laboratory for Solar Energy and Fuels",
         position: "",
-        image: require("../../../static/images/avatars/EGBC.png"),
+        image: require("../../../static/images/avatars/ubc.png"),
     },
     {
         name: "UBC School of Engineering",
@@ -129,6 +135,11 @@ const sponsors = [
         name: "Entrepreneurship@UBCO",
         position: "",
         image: require("../../../static/images/avatars/e@UBCO.jpeg"),
+    },
+    {
+        name: "Engineers and Geoscientists BC",
+        position: "",
+        image: require("../../../static/images/avatars/EGBC.png"),
     },
     {
         name: "The Engineering Society at UBC",
