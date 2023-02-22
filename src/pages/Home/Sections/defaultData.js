@@ -1,7 +1,7 @@
 /* eslint-disable */
 const testimonials = [
     {
-        testimonial: `We started IDS to bring together all the students who want to make a change in ourenvironment. We encourage every student to join regardless of their faculty!`,
+        testimonial: `We started IDS to bring together all the students who want to make a change in our environment. We encourage every student to join regardless of their faculty/program!`,
         image: require("../../../static/images/avatars/person5.png"),
         author: "Sayra Gorgani",
         role: "Founder",
@@ -12,79 +12,79 @@ const testimonials = [
         author: "Ashwin Ramesh",
         role: "Co-Founder",
     },
-    {
-        testimonial: `The reason why I co-founded this club is because I aspire to make a positive contribution to the UBCO community and this club is one way to do it.`,
-        image: require("../../../static/images/avatars/person6.png"),
-        author: "Eric Laksmono",
-        role: "Co-Founder",
-    },
+
 ];
 /* eslint-disable */
 const teamMembers = [
     {
         name: "Sayra Gorgani",
-        position: "Founder",
-        image: require("../../../static/images/avatars/person5.png"),
+        position: "Founder & President",
+        image: require("../../../static/images/avatars/Sayra.png"),
     },
     {
         name: "Ashwin Ramesh",
-        position: "Co-Founder",
-        image: require("../../../static/images/avatars/person7.png"),
+        position: "Co-Founder & VP Operations",
+        image: require("../../../static/images/avatars/Ashwin.png"),
     },
     {
         name: "Ailie Geuma Kwak",
-        position: "VP Operations",
-        image: require("../../../static/images/avatars/person5.png"),
+        position: "VP Marketing",
+        image: require("../../../static/images/avatars/Ailie.png"),
     },
     {
         name: "Ruwaida Rashid",
-        position: "VP Marketing",
-        image: require("../../../static/images/avatars/person3.png"),
+        position: "VP Events",
+        image: require("../../../static/images/avatars/Ruwaida.png"),
     },
     {
         name: "Celina Yin",
-        position: "VP Events",
-        image: require("../../../static/images/avatars/person3.png"),
+        position: "VP Finance",
+        image: require("../../../static/images/avatars/Celina.png"),
+    },
+    {
+        name: "Madisyn Szypula",
+        position: "Solar Bench Design Coordinator",
+        image: require("../../../static/images/avatars/Madisyn.png"),
     },
     {
         name: "Jared Paull ",
         position: "Solar Bench Electrical Lead",
-        image: require("../../../static/images/avatars/person3.png"),
+        image: require("../../../static/images/avatars/Jared.png"),
     },
     {
-        name: " Tabitha Aurthur ",
+        name: "Tabitha Arthur",
         position: "Solar Bench Civil Lead",
-        image: require("../../../static/images/avatars/person3.png"),
+        image: require("../../../static/images/avatars/Tabitha.png"),
     },
     {
         name: "Isha Shah",
-        position: "Solar Bench Electrical Lead",
-        image: require("../../../static/images/avatars/person3.png"),
+        position: "Solar Bench Software Lead",
+        image: require("../../../static/images/avatars/Isha.png"),
     },
     {
         name: "Kurtis Dezall",
-        position: "Solar Bench Mechanical Lead",
-        image: require("../../../static/images/avatars/person3.png"),
+        position: "Solar Bench Mechanical Co-Lead",
+        image: require("../../../static/images/avatars/Kurtis.png"),
     },
     {
         name: "Salman Ahmed",
-        position: "Solar Bench Mechanical Lead",
-        image: require("../../../static/images/avatars/person3.png"),
+        position: "Solar Bench Mechanical Co-Lead",
+        image: require("../../../static/images/avatars/Salman.png"),
     },
     {
         name: "David Ollech",
-        position: "Campus Waste Initiatives Lead",
-        image: require("../../../static/images/avatars/person3.png"),
+        position: "Campus Waste Initiatives Co-Lead",
+        image: require("../../../static/images/avatars/David.png"),
     },
     {
-        name: " Lakshay Karnwal ",
-        position: "Campus Waste Initiatives Lead",
-        image: require("../../../static/images/avatars/person3.png"),
+        name: "Lakshay Karnwal",
+        position: "Campus Waste Initiatives Co-Lead",
+        image: require("../../../static/images/avatars/Lakshay.png"),
     },
     {
-        name: " Samantha Krieg ",
+        name: "Samantha Krieg",
         position: "Solar Decathlon Team Captain",
-        image: require("../../../static/images/avatars/person3.png"),
+        image: require("../../../static/images/avatars/Samantha.png"),
     },
 ];
 
@@ -95,7 +95,7 @@ const projects = [
         image: require("../../../static/images/portfolio/gallery/solar_bench.png"),
         docLink:
             "https://docs.google.com/presentation/d/1SNtXMcVFSYvDvYd1gbPlbcELS1MevdR-yTPqgnv6i48/edit#slide=id.g35f391192_00",
-        description: "Implementing Solar Benches on Campus",
+        description: "Implementing Solar-Powered Benches on Campus",
         caption: `IDS has realized that there is a lack of available renewable energy
         resources for student use on the UBCO campus. As a result of this, IDS is
         proposing the Solar Bench Project; the objective of this project is to
@@ -103,39 +103,39 @@ const projects = [
         seating and charging stations.`,
     },
     {
-        title: "Campus Waste Initiaive",
+        title: "Campus Waste Initiatives",
         link: "/campus_waste_initiative",
         image: require("../../../static/images/portfolio/gallery/cwi.png"),
-        description: "Waste Management around University Campus",
+        description: "Working Directly With UBC Facilities Management to Improve Waste Management on Campus",
     },
     {
-        title: "Solar Decathelon",
+        title: "Solar Decathlon",
         link: "https://www.solardecathlon.gov/",
         image: require("../../../static/images/portfolio/gallery/sd.jpg"),
-        description: "The solar decathelon competition",
+        description: "Solar Decathlon Design Challenge",
     },
 ];
 
 const sponsors = [
     {
-        name: "Sayra Gorgani",
-        position: "Founder",
-        image: require("../../../static/images/avatars/person5.png"),
+        name: "Engineers and Geoscientists BC",
+        position: "",
+        image: require("../../../static/images/avatars/EGBC.png"),
     },
     {
-        name: "Ashwin Ramesh",
-        position: "Co-Founder",
-        image: require("../../../static/images/avatars/person7.png"),
+        name: "UBC School of Engineering",
+        position: "",
+        image: require("../../../static/images/avatars/UBC_SoE.png"),
     },
     {
-        name: "Eric Laksmono",
-        position: "Co-Founder",
-        image: require("../../../static/images/avatars/person5.png"),
+        name: "Entrepreneurship@UBCO",
+        position: "",
+        image: require("../../../static/images/avatars/e@UBCO.png"),
     },
     {
-        name: "Alexis Guidi",
-        position: "Co-Founder",
-        image: require("../../../static/images/avatars/person3.png"),
+        name: "The Engineering Society at UBC",
+        position: "",
+        image: require("../../../static/images/avatars/EngSoc.png"),
     },
 ];
 
