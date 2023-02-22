@@ -58,7 +58,7 @@ export default function Sponsors() {
         <section id="team" className="s-clients" style={{ backgroundColor: "#FFFFFF" }}>
             <div className="row section-header" data-aos="fade-up">
                 <div className="col-full">
-                    <h3 className="subhead">Our Sponsors</h3>
+                    <h3 className="subhead">Sponsors and Affiliations</h3>
                     {/*
                     <h1 className="display-2">Meet group of unique individuals that made this club possible</h1>
                     */}
