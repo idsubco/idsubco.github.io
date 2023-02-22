@@ -25,34 +25,34 @@ const navRoutes = [
                 icon: getIcon("fluent:people-team-16-filled"),
             },
             {
-                title: "Events",
+                title: "Testimonials",
                 path: "#testimonials",
                 icon: getIcon("dashicons:testimonial"),
             },
         ],
     },
-    {
-        title: "Projects",
-        path: "/",
-        icon: getIcon("ic:round-miscellaneous-services"),
-        children: [
-            {
-                title: "Solar Bench Project",
-                path: "/solar_bench",
-                icon: getIcon("ic:outline-solar-power"),
-            },
-            {
-                title: "Campus Waste Initiative",
-                path: "/campus_waste_initiative",
-                icon: getIcon("maki:waste-basket"),
-            },
-            {
-                title: "Solar Decathlon",
-                path: "/solar_decathlon",
-                icon: getIcon("ic:outline-solar-power"),
-            },
-        ],
-    },
+//     {
+//         title: "Projects",
+//         path: "/",
+//         icon: getIcon("ic:round-miscellaneous-services"),
+//         children: [
+//             {
+//                 title: "Solar Bench Project",
+//                 path: "/solar_bench",
+//                 icon: getIcon("ic:outline-solar-power"),
+//             },
+//             {
+//                 title: "Campus Waste Initiatives",
+//                 path: "/campus_waste_initiative",
+//                 icon: getIcon("maki:waste-basket"),
+//             },
+//             {
+//                 title: "Solar Decathlon",
+//                 path: "/solar_decathlon",
+//                 icon: getIcon("ic:outline-solar-power"),
+//             },
+//         ],
+//     }, 
     
 ];
 
