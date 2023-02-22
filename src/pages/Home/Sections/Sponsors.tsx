@@ -86,7 +86,7 @@ function Member({ image, name, position }: Member) {
     return (
         <div className="team__slide">
             {/* @ts-ignore */}
-            <img src={image} alt="Author" className="team__avatar" />
+            <img src={image} alt="Author" className="team__avatar" style={{ borderRadius: 0 }} />
             <div className="team__info">
                 <span className="team__name">{name}</span>
                 <span className="team__pos">{position}</span>

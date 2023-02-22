@@ -1,34 +1,32 @@
 {
   "files": {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    "main.css": "/static/css/main.82b2e92e.css",
-    "main.js": "/static/js/main.351fcb95.js",
-    "static/js/322.04815571.chunk.js": "/static/js/322.04815571.chunk.js",
-=======
     "main.css": "/static/css/main.8a21b412.css",
-    "main.js": "/static/js/main.c8285e28.js",
->>>>>>> Stashed changes
-=======
-    "main.css": "/static/css/main.8a21b412.css",
-    "main.js": "/static/js/main.69c13b04.js",
->>>>>>> 8d35f122c42ff7a660fb0a79a2588b9c8de97a11
+    "main.js": "/static/js/main.6b387122.js",
     "static/js/787.7d2b66e2.chunk.js": "/static/js/787.7d2b66e2.chunk.js",
     "static/media/solar_bench.png": "/static/media/solar_bench.9e83aced9b1c332ae8a5.png",
+    "static/media/Sayra.jpg": "/static/media/Sayra.504d9df4388186c8aa2f.jpg",
     "static/media/cwi.png": "/static/media/cwi.a69cf3fbd26847ce632f.png",
+    "static/media/Ruwaida.png": "/static/media/Ruwaida.3dcc1d666bbc279c8166.png",
     "static/media/solarpanel.jpeg": "/static/media/solarpanel.4dbe1beb2d153cebda04.jpeg",
-    "static/media/person6.png": "/static/media/person6.ed68cb1d60afb6c1332a.png",
+    "static/media/Ailie.jpg": "/static/media/Ailie.8032702509b8ce30b5fc.jpg",
+    "static/media/Celina.png": "/static/media/Celina.f9e81077ecfbb228b434.png",
+    "static/media/Jared.png": "/static/media/Jared.af228fbf08bbd5ec7e24.png",
+    "static/media/Kurtis.jpg": "/static/media/Kurtis.cf840705a47f761fbcd7.jpg",
+    "static/media/Isha.jpg": "/static/media/Isha.54d7f8f7e0224a8c34cb.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/person5.png": "/static/media/person5.e6061913538c669f98ec.png",
-    "static/media/person3.png": "/static/media/person3.30215ebde061bd288272.png",
+    "static/media/Samantha.jpg": "/static/media/Samantha.12ef7276bcfe8cfb6617.jpg",
+    "static/media/Lakshay.jpg": "/static/media/Lakshay.6d3a39b5288db06e81ba.jpg",
     "static/media/icomoon.svg?jo2z5t": "/static/media/icomoon.2deaf70e8a227525f57b.svg",
+    "static/media/EngSoc.png": "/static/media/EngSoc.54c999567ea10999e424.png",
+    "static/media/Salman.jpg": "/static/media/Salman.9f2ae3d18d17149536c0.jpg",
     "static/media/contact-bg.jpg": "/static/media/contact-bg.928ca4ec9f270e0055b3.jpg",
     "static/media/sticker.png": "/static/media/sticker.a167794cb109382cb4f3.png",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/sd.jpg": "/static/media/sd.d8327c2df6a00c367a9c.jpg",
-    "static/media/person7.png": "/static/media/person7.1b69f477fc6596061be5.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/EGBC.png": "/static/media/EGBC.a75e08d4400a68a40a81.png",
+    "static/media/Ashwin.jpg": "/static/media/Ashwin.c16c2d9370356582cc73.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/icomoon.eot?jo2z5t": "/static/media/icomoon.b09c6cfe6d1a3ee07d09.eot",
     "static/media/icomoon.woff?jo2z5t": "/static/media/icomoon.3bf66f1dbb0be274dbef.woff",
@@ -61,35 +59,15 @@
     "static/media/montserrat-extrabold-webfont.woff2": "/static/media/montserrat-extrabold-webfont.1591f6783886bb360c7d.woff2",
     "static/media/montserrat-black-webfont.woff2": "/static/media/montserrat-black-webfont.9769c0e76f0961551dc5.woff2",
     "static/media/montserrat-thin-webfont.woff2": "/static/media/montserrat-thin-webfont.a2575096f1a71d7c0ef0.woff2",
+    "static/media/e@UBCO.jpeg": "/static/media/e@UBCO.114642f1a252a94ca301.jpeg",
     "static/media/default-skin.svg": "/static/media/default-skin.f64c3af3d0d25b9e4e00.svg",
     "index.html": "/index.html",
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-    "main.82b2e92e.css.map": "/static/css/main.82b2e92e.css.map",
-    "main.351fcb95.js.map": "/static/js/main.351fcb95.js.map",
-    "322.04815571.chunk.js.map": "/static/js/322.04815571.chunk.js.map",
-    "787.7d2b66e2.chunk.js.map": "/static/js/787.7d2b66e2.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.82b2e92e.css",
-    "static/js/main.351fcb95.js"
-=======
     "main.8a21b412.css.map": "/static/css/main.8a21b412.css.map",
-    "main.c8285e28.js.map": "/static/js/main.c8285e28.js.map",
+    "main.6b387122.js.map": "/static/js/main.6b387122.js.map",
     "787.7d2b66e2.chunk.js.map": "/static/js/787.7d2b66e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a21b412.css",
-    "static/js/main.c8285e28.js"
->>>>>>> Stashed changes
-=======
-    "main.8a21b412.css.map": "/static/css/main.8a21b412.css.map",
-    "main.69c13b04.js.map": "/static/js/main.69c13b04.js.map",
-    "787.7d2b66e2.chunk.js.map": "/static/js/787.7d2b66e2.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.8a21b412.css",
-    "static/js/main.69c13b04.js"
->>>>>>> 8d35f122c42ff7a660fb0a79a2588b9c8de97a11
+    "static/js/main.6b387122.js"
   ]
 }

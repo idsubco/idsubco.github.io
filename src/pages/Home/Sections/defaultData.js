@@ -2,34 +2,33 @@
 const testimonials = [
     {
         testimonial: `We started IDS to bring together all the students who want to make a change in our environment. We encourage every student to join regardless of their faculty/program!`,
-        image: require("../../../static/images/avatars/person5.png"),
+        image: require("../../../static/images/avatars/Sayra.jpg"),
         author: "Sayra Gorgani",
         role: "Founder",
     },
     {
         testimonial: `This club acts as a platform to take immediate actions and tackle current environmental problems worldwide, starting from our own community.`,
-        image: require("../../../static/images/avatars/person7.png"),
+        image: require("../../../static/images/avatars/Ashwin.jpg"),
         author: "Ashwin Ramesh",
         role: "Co-Founder",
     },
-
 ];
 /* eslint-disable */
 const teamMembers = [
     {
         name: "Sayra Gorgani",
         position: "Founder & President",
-        image: require("../../../static/images/avatars/Sayra.png"),
+        image: require("../../../static/images/avatars/Sayra.jpg"),
     },
     {
         name: "Ashwin Ramesh",
         position: "Co-Founder & VP Operations",
-        image: require("../../../static/images/avatars/Ashwin.png"),
+        image: require("../../../static/images/avatars/Ashwin.jpg"),
     },
     {
         name: "Ailie Geuma Kwak",
         position: "VP Marketing",
-        image: require("../../../static/images/avatars/Ailie.png"),
+        image: require("../../../static/images/avatars/Ailie.jpg"),
     },
     {
         name: "Ruwaida Rashid",
@@ -41,50 +40,50 @@ const teamMembers = [
         position: "VP Finance",
         image: require("../../../static/images/avatars/Celina.png"),
     },
-    {
-        name: "Madisyn Szypula",
-        position: "Solar Bench Design Coordinator",
-        image: require("../../../static/images/avatars/Madisyn.png"),
-    },
+    // {
+    //     name: "Madisyn Szypula",
+    //     position: "Solar Bench Design Coordinator",
+    //     image: require("../../../static/images/avatars/Madisyn.png"),
+    // },
     {
         name: "Jared Paull ",
         position: "Solar Bench Electrical Lead",
         image: require("../../../static/images/avatars/Jared.png"),
     },
-    {
-        name: "Tabitha Arthur",
-        position: "Solar Bench Civil Lead",
-        image: require("../../../static/images/avatars/Tabitha.png"),
-    },
+    // {
+    //     name: "Tabitha Arthur",
+    //     position: "Solar Bench Civil Lead",
+    //     image: require("../../../static/images/avatars/Tabitha.png"),
+    // },
     {
         name: "Isha Shah",
         position: "Solar Bench Software Lead",
-        image: require("../../../static/images/avatars/Isha.png"),
+        image: require("../../../static/images/avatars/Isha.jpg"),
     },
     {
         name: "Kurtis Dezall",
         position: "Solar Bench Mechanical Co-Lead",
-        image: require("../../../static/images/avatars/Kurtis.png"),
+        image: require("../../../static/images/avatars/Kurtis.jpg"),
     },
     {
         name: "Salman Ahmed",
         position: "Solar Bench Mechanical Co-Lead",
-        image: require("../../../static/images/avatars/Salman.png"),
+        image: require("../../../static/images/avatars/Salman.jpg"),
     },
-    {
-        name: "David Ollech",
-        position: "Campus Waste Initiatives Co-Lead",
-        image: require("../../../static/images/avatars/David.png"),
-    },
+    // {
+    //     name: "David Ollech",
+    //     position: "Campus Waste Initiatives Co-Lead",
+    //     image: require("../../../static/images/avatars/David.png"),
+    // },
     {
         name: "Lakshay Karnwal",
         position: "Campus Waste Initiatives Co-Lead",
-        image: require("../../../static/images/avatars/Lakshay.png"),
+        image: require("../../../static/images/avatars/Lakshay.jpg"),
     },
     {
         name: "Samantha Krieg",
         position: "Solar Decathlon Team Captain",
-        image: require("../../../static/images/avatars/Samantha.png"),
+        image: require("../../../static/images/avatars/Samantha.jpg"),
     },
 ];
 
@@ -130,7 +129,7 @@ const sponsors = [
     {
         name: "Entrepreneurship@UBCO",
         position: "",
-        image: require("../../../static/images/avatars/e@UBCO.png"),
+        image: require("../../../static/images/avatars/e@UBCO.jpeg"),
     },
     {
         name: "The Engineering Society at UBC",

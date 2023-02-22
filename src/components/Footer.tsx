@@ -23,7 +23,7 @@ export default function Footer() {
 
     return (
         <footer>
-            <div className="row footer-main">
+            <div id="contact" className="row footer-main">
                 <div className="col-six tab-full left footer-desc">
                     <div className="footer-logo" />
                     IDS is UBC Okanagan's first sustainability-focused design club. IDS's roots stem from three core
