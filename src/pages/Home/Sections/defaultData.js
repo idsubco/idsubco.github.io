@@ -92,8 +92,7 @@ const projects = [
         title: "Solar Bench Project",
         link: "/solar_bench",
         image: require("../../../static/images/portfolio/gallery/solar_bench.png"),
-        docLink:
-            "https://docs.google.com/presentation/d/1SNtXMcVFSYvDvYd1gbPlbcELS1MevdR-yTPqgnv6i48/edit#slide=id.g35f391192_00",
+        link: "https://drive.google.com/file/d/1JW8Z79md24JETHa9OK8T_yXUsNWBDMiN/view?usp=sharing"
         description: "Implementing Solar-Powered Benches on Campus",
         caption: `IDS has realized that there is a lack of available renewable energy
         resources for student use on the UBCO campus. As a result of this, IDS is
@@ -103,14 +102,14 @@ const projects = [
     },
     {
         title: "Campus Waste Initiatives",
-        link: "/campus_waste_initiative",
+        link: "https://drive.google.com/file/d/1SpX5dPP4WlJV6Vi23TDOIYgMm-P_tmuP/view?usp=sharing",
         image: require("../../../static/images/portfolio/gallery/cwi.png"),
         description: "Working Directly With UBC Facilities Management to Improve Waste Management on Campus",
     },
     {
         title: "Solar Decathlon",
-        link: "https://www.solardecathlon.gov/",
-        image: require("../../../static/images/portfolio/gallery/sd.jpg"),
+        link: "https://drive.google.com/file/d/1L8Vn90LHVmN-BldpdfrThqTKblyhusB6/view?usp=sharing",
+        image: require("../../../static/images/portfolio/gallery/solar_decathlon.png"),
         description: "Solar Decathlon Design Challenge",
     },
 ];
