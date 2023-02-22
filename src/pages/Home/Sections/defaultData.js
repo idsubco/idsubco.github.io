@@ -55,11 +55,11 @@ const teamMembers = [
         position: "Solar Bench Electrical Lead",
         image: require("../../../static/images/avatars/Jared.png"),
     },
-    // {
-    //     name: "Tabitha Arthur",
-    //     position: "Solar Bench Civil Lead",
-    //     image: require("../../../static/images/avatars/Tabitha.png"),
-    // },
+    {
+        name: "Tabitha Arthur",
+        position: "Solar Bench Civil Lead",
+        image: require("../../../static/images/avatars/Tabitha.png"),
+    },
     {
         name: "Isha Shah",
         position: "Solar Bench Software Lead",
