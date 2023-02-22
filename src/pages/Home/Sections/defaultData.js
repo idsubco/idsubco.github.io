@@ -4,7 +4,7 @@ const testimonials = [
         testimonial: `We started IDS to bring together all the students who want to make a change in our environment. We encourage every student to join regardless of their faculty/program!`,
         image: require("../../../static/images/avatars/Sayra.jpg"),
         author: "Sayra Gorgani",
-        role: "Founder",
+        role: "Co-Founder & President",
     },
     {
         testimonial: `This club acts as a platform to take immediate actions and tackle current environmental problems worldwide, starting from our own community.`,
@@ -17,7 +17,7 @@ const testimonials = [
 const teamMembers = [
     {
         name: "Sayra Gorgani",
-        position: "Founder & President",
+        position: "Co-Founder & President",
         image: require("../../../static/images/avatars/Sayra.jpg"),
     },
     {
