@@ -68,7 +68,7 @@ const teamMembers = [
     {
         name: "Kurtis Dezall",
         position: "Solar Bench Mechanical Co-Lead",
-        image: require("../../../static/images/avatars/Kurtis.jpg"),
+        image: require("../../../static/images/avatars/Kurtis.png"),
     },
     {
         name: "Salman Ahmed",
