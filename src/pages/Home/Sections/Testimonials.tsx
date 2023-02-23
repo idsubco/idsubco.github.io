@@ -1,7 +1,7 @@
 import { useLayoutEffect, useEffect, useState } from "react";
 import $ from "jquery";
 
-import { testimonials as initialData } from "./defaultData";
+import { testimonials as initialData,  } from "./defaultData";
 
 export default function Testimonials() {
     const [testimonials, setTestimonials] = useState<TestimonialType[]>([]);

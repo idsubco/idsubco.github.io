@@ -2,7 +2,7 @@ import { useEffect, useLayoutEffect, useState } from "react";
 import $ from "jquery";
 // import axios from "axios";
 
-import { sponsors as initialData } from "./defaultData";
+import { sponsors as initialData , } from "./defaultData";
 
 export default function Sponsors() {
     const [members, setMembers] = useState<Member[]>([]);

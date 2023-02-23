@@ -4,7 +4,7 @@ import { useLayoutEffect, useState } from "react";
 import Masonry from "masonry-layout";
 import imagesLoaded from "imagesloaded";
 // import * as Parallax from "jquery-parallax.js"
-import { projects as fakeData } from "./defaultData";
+import { projects as fakeData,  } from "./defaultData";
 /* eslint-disable */
 type Project = {
     title: string;

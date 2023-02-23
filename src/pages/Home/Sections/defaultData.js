@@ -88,7 +88,7 @@ const teamMembers = [
     {
         name: "Sunil Suresh",
         position: "Advisor",
-        image: require("../../../static/images/avatars/Sunil_cropped.jpg"),
+        image: require("../../../static/images/avatars/Sunil_cropped.png"),
     },
 
 ];
@@ -98,7 +98,7 @@ const projects = [
         title: "Solar Bench Project",
         link: "/solar_bench",
         image: require("../../../static/images/portfolio/gallery/solar_bench.png"),
-        link: "https://drive.google.com/file/d/1JW8Z79md24JETHa9OK8T_yXUsNWBDMiN/view?usp=sharing"
+        link: "https://drive.google.com/file/d/1JW8Z79md24JETHa9OK8T_yXUsNWBDMiN/view?usp=sharing",
         description: "Implementing Solar-Powered Benches on Campus",
         caption: `IDS has realized that there is a lack of available renewable energy
         resources for student use on the UBCO campus. As a result of this, IDS is

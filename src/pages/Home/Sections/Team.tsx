@@ -2,7 +2,7 @@ import { useEffect, useLayoutEffect, useState } from "react";
 import $ from "jquery";
 // import axios from "axios";
 
-import { teamMembers as initialData } from "./defaultData";
+import { teamMembers as initialData , } from "./defaultData";
 
 export default function Team() {
     const [members, setMembers] = useState<Member[]>([]);
