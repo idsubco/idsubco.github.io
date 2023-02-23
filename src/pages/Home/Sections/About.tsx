@@ -56,9 +56,9 @@ export default function About() {
             <div className="row about-desc" data-aos="fade-up">
                 <div className="col-full">
                     <p>
-                        IDS is UBC Okanagan's first sustainability-focused design club. Our roots stem from three core
-                        concepts: Innovate, Design and Sustain and use science, engineering and creativity for the
-                        betterment of our present and future community.
+                        IDS is UBC Okanagan's first sustainability-focused design club. IDS's roots stem from three core concepts: 
+                        Innovate, Design and Sustain. Our team uses science, engineering and education for the betterment of our 
+                        present and future Okanagan Campus.
                     </p>
                 </div>
             </div>
