@@ -36,7 +36,7 @@ export default function Works() {
                     <div className="col-full">
                         <h3 className="subhead">Recent Projects</h3>
                         <h1 className="display-2 display-2--light">
-                            We love what we do, check out some of our latest Projects
+                            We love what we do, check out some of our latest projects
                         </h1>
                     </div>
                 </div>
