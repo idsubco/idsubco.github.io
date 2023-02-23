@@ -59,7 +59,7 @@ export default function Team() {
             <div className="row section-header" data-aos="fade-up">
                 <div className="col-full">
                     <h3 className="subhead">Our Team</h3>
-                    <h1 className="display-2">Meet group of unique individuals that made this club possible</h1>
+                    <h1 className="display-2">Meet the group of unique individuals that made this club possible</h1>
                 </div>
             </div>
 
