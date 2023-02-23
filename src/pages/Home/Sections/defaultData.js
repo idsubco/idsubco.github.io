@@ -28,7 +28,7 @@ const teamMembers = [
     {
         name: "Ailie Geuma Kwak",
         position: "VP Marketing",
-        image: require("../../../static/images/avatars/Ailie.jpg"),
+        image: require("../../../static/images/avatars/Ailie_cropped.png"),
     },
     {
         name: "Ruwaida Rashid",
