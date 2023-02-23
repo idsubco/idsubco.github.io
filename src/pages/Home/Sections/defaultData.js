@@ -33,7 +33,7 @@ const teamMembers = [
     {
         name: "Ruwaida Rashid",
         position: "VP Events",
-        image: require("../../../static/images/avatars/Ruwaida.png"),
+        image: require("../../../static/images/avatars/Ruwaida.jpg"),
     },
     {
         name: "Celina Yin",
