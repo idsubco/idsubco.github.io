@@ -43,7 +43,7 @@ const teamMembers = [
     {
         name: "Samantha Krieg",
         position: "Solar Decathlon Team Captain",
-        image: require("../../../static/images/avatars/Samantha.jpg"),
+        image: require("../../../static/images/avatars/Samantha_cropped.png"),
     },
     {
         name: "Madisyn Szypula",
