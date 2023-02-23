@@ -132,6 +132,21 @@ const sponsors = [
         image: require("../../../static/images/avatars/UBC_SoE.png"),
     },
     {
+        name: "RJC Engineers",
+        position: "",
+        image: require("../../../static/images/avatars/RJC.png"),
+    },
+    {
+        name: "Smith + Andersen",
+        position: "",
+        image: require("../../../static/images/avatars/Smith_Andersen.png"),
+    },
+    {
+        name: "Project Green Architecture",
+        position: "",
+        image: require("../../../static/images/avatars/Project_Green.png"),
+    },
+    {
         name: "Entrepreneurship@UBCO",
         position: "",
         image: require("../../../static/images/avatars/e@UBCO.jpeg"),
