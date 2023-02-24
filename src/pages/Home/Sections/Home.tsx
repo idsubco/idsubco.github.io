@@ -37,15 +37,7 @@ export default function Home() {
     });
     return (
         <Parallax bgImage={SolarPanel}>
-            <section
-                id="home"
-                className="s-home target-section"
-                // data-parallax="scroll"
-                // data-image-src={SolarPanel}
-                // data-natural-width="3000"
-                // data-natural-height="2000"
-                // data-position-y="center"
-            >
+            <section id="home" className="s-home target-section">
                 <div className="overlay" />
                 <div className="shadow-overlay" />
                 <div className="home-content">

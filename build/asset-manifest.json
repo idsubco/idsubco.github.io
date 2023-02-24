@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8a21b412.css",
-    "main.js": "/static/js/main.931b7b1e.js",
+    "main.js": "/static/js/main.addc5b75.js",
     "static/js/787.7d2b66e2.chunk.js": "/static/js/787.7d2b66e2.chunk.js",
     "static/media/Tabitha.png": "/static/media/Tabitha.6be3af5ce961672d3680.png",
     "static/media/Madisyn.png": "/static/media/Madisyn.e3ada5c9ab74f7f29359.png",
@@ -13,6 +13,7 @@
     "static/media/cwi_2.png": "/static/media/cwi_2.0bc5b960200c14cb0128.png",
     "static/media/Celina.png": "/static/media/Celina.f9e81077ecfbb228b434.png",
     "static/media/Jared.png": "/static/media/Jared.af228fbf08bbd5ec7e24.png",
+    "static/media/desert.png": "/static/media/desert.d98af75f35d7e25089f1.png",
     "static/media/solar_bench_2.png": "/static/media/solar_bench_2.38cecefa47a06abbcdac.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Sunil_cropped.png": "/static/media/Sunil_cropped.143ef353e7900a75597a.png",
@@ -70,11 +71,11 @@
     "static/media/default-skin.svg": "/static/media/default-skin.f64c3af3d0d25b9e4e00.svg",
     "index.html": "/index.html",
     "main.8a21b412.css.map": "/static/css/main.8a21b412.css.map",
-    "main.931b7b1e.js.map": "/static/js/main.931b7b1e.js.map",
+    "main.addc5b75.js.map": "/static/js/main.addc5b75.js.map",
     "787.7d2b66e2.chunk.js.map": "/static/js/787.7d2b66e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a21b412.css",
-    "static/js/main.931b7b1e.js"
+    "static/js/main.addc5b75.js"
   ]
 }
