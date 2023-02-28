@@ -62,7 +62,8 @@ export default function Footer() {
                     <div className="copyright">
                         <span>© Copyright IDS 2022</span>
                         <span>
-                            Designed and Developed by <a href="https://samiraliyev.com/">Samir Aliyev</a>
+                            Designed and Developed by <a href="https://samiraliyev.com/">Samir Aliyev</a> and{" "}
+                            <a href="https://github.com/jjkivai/">James Kivai</a>
                         </span>
                     </div>
 

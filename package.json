@@ -46,7 +46,7 @@
         "eject": "react-scripts eject",
         "lint": "eslint --ext .ts,.tsx ./src",
         "lint:fix": "eslint --fix --ext .ts,.tsx ./src",
-        "deploy": "npm run build && gh-pages -d build"
+        "deploy": "npm run build && copy build\\index.html build\\404.html && gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
